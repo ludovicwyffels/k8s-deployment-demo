@@ -15,13 +15,13 @@ to make your infrastructure relisiant. Before experimenting, checkout the blog p
 ## Getting started
 
 These examples were created and tested on [Minikube](http://github.com/kubernetes/minikube) running
-with Kubernetes v1.7.2.
+with Kubernetes v1.14.1.
 
 ### Using minikube
 
 ```
 # start Minikube
-minikube start --kubernetes-version v1.7.2
+minikube start --kubernetes-version v1.14.1
 
 # to speed up the deployment of the app, share Minikube Docker environment
 eval $(minikube docker-env)
